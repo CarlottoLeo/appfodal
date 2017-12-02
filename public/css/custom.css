@@ -1,4 +1,52 @@
-.background{
-  opacity:0.4;
-  position: relative;
+.bg_video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background: url(images/nome-do-video.jpg) no-repeat;
+    background-size: cover;
 }
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+  .divHome{
+    opacity: 0.3
+  }
+
+.teal{
+  background-color: #000000 !important;
+}
+
+.local{
+  margin-top: 80px;
+}
+
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
